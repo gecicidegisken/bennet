@@ -1,2 +1,2 @@
 # bennet
-A personal website theme
+A personal website theme in progress.

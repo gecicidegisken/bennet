@@ -1,0 +1,92 @@
+:root {
+  --background: white;
+  --green: #939b62;
+  --orange: #ffb26b;
+  --purple: #9a8194;
+  --red: #de8971;
+  --blue: #86aba1;
+}
+* {
+  font-family: "Raleway", sans-serif;
+}
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container {
+  background-color: var(--background);
+  display: block;
+  border: 3px solid var(--red);
+  border-radius: 2px;
+  padding: 20px;
+  box-shadow: 10px -10px 0 -3px var(--background), 10px -10px var(--green),
+    20px -20px 0 -3px var(--background), 20px -20px var(--blue),
+    30px -30px 0 -3px var(--background), 30px -30px var(--orange),
+    40px -40px 0 -3px var(--background), 40px -40px var(--purple);
+  transition: box-shadow 1s, top 1s, left 1s;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 5rem;
+  color: var(--red);
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.sub-title {
+  font-size: 2rem;
+  margin-top: 0;
+  font-weight: bold;
+  color: grey;
+}
+
+.menu-container {
+  display: flex;
+
+  justify-content: center;
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+
+a {
+  margin-right: 25px;
+  text-decoration: none;
+  transition: all 0.15s ease-in;
+  font-size: 2.5rem;
+}
+
+#menu-item-1 {
+  color: var(--green);
+}
+
+#menu-item-2 {
+  color:var(--blue);
+}
+#menu-item-3 {
+  color: var(--orange);
+}
+#menu-item-4 {
+  color: var(--purple);
+}
+
+

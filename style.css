@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&display=swap");
+
 :root {
   --background: white;
   --green: #939b62;
@@ -32,7 +34,7 @@
   position: relative;
   top: 0;
   left: 0;
-  cursor: pointer;
+
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
@@ -56,10 +58,9 @@
 
 .menu-container {
   display: flex;
-
   justify-content: center;
   font-weight: bold;
-  font-size: 28px;
+
   margin: 0;
 
   justify-content: center;
@@ -67,12 +68,11 @@
   margin-top: 5px;
 }
 
-
-a {
+.menu-container a {
   margin-right: 25px;
   text-decoration: none;
   transition: all 0.15s ease-in;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 #menu-item-1 {
@@ -80,7 +80,7 @@ a {
 }
 
 #menu-item-2 {
-  color:var(--blue);
+  color: var(--blue);
 }
 #menu-item-3 {
   color: var(--orange);
@@ -88,5 +88,3 @@ a {
 #menu-item-4 {
   color: var(--purple);
 }
-
-
